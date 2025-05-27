@@ -1,0 +1,25 @@
+# hyperparameters
+dataset: AIOps
+down_size: 100
+batch_size: 16
+shuffle: False   # Must False!!!
+num_workers: 2
+latent_space_size: 128
+hidden_dim: 64  # LSTM
+epochs: 30
+learning_rate: 0.005
+min_seg_len: 200
+K: 0.1
+beta: 5.0
+quantile: 99
+method: kpca
+n_components: 16
+window_size: 10
+patch_size: 5
+model_name: ['Encoder_base','Encoder_base_2','Encoder_base_3','Encoder_base_4','Encoder_base_5']
+gamma: 1.0
+tau: 0.1
+lambda1: 1.0
+lambda2: 0
+lambda3: 0
+

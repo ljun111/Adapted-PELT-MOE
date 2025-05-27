@@ -1,0 +1,25 @@
+# hyperparameters
+dataset: WADI
+down_size: 40
+batch_size: 32
+shuffle: False   # Must False!!!
+num_workers: 2
+latent_space_size: 128
+hidden_dim: 64  # LSTM
+epochs: 40
+learning_rate: 0.0001
+min_seg_len: 200
+K: 0.00001
+beta: 50000.0
+quantile: 99
+method: kpca
+n_components: 16
+window_size: 1
+patch_size: 5
+model_name: ['Encoder_base','Encoder_base_2','Encoder_base_3','Encoder_base_4','Encoder_base_5']
+gamma: 30000.0
+tau: 1000.0
+lambda1: 1.0
+lambda2: 0
+lambda3: 0
+

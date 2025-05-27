@@ -1,0 +1,25 @@
+# hyperparameters
+dataset: Fourier
+down_size: 1
+batch_size: 16
+shuffle: False   # Must False!!!
+num_workers: 2
+latent_space_size: 128
+hidden_dim: 64  # LSTM
+epochs: 30
+learning_rate: 0.005
+min_seg_len: 40
+K: 0.1
+beta: 2.0
+quantile: 95
+method: kpca
+n_components: 16
+window_size: 10
+patch_size: 5
+model_name: ['Encoder_base']   # Only one encoder
+gamma: 1.0
+tau: 0.1
+lambda1: 1.0
+lambda2: 0
+lambda3: 0
+
